@@ -1,0 +1,119 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+.container {
+    width: 1280px;
+    height: auto;
+    position: fixed;
+
+}
+#content{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    height: 600px;
+    width: 100%;
+   
+
+    
+}
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+#btn {
+    height: 3rem;
+    width: 8rem;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    cursor: pointer;
+}
+#popup {
+    height: 400px;
+    width: 100%;
+    position: fixed;
+    display: none;
+    
+}
+#box {
+    height: 300px;
+    width: 400px;
+    background-color: #a6c1ee;
+    position: relative;
+    top: 30%;
+    left: 35%;
+    padding: 2rem;
+    display: none;
+    animation-name: drop;
+    animation-duration: 1s;
+    
+}
+
+#box h4 {
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+#box h3 {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+#box p {
+    color: #fbc2eb;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+@keyframes drop{
+    0% {
+        top: -100px;
+    }
+    100% {
+        
+        top: 30%;
+    }
+}
+input[type=text] {
+    width: 100%;
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+h5 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   cursor: pointer;
+   margin-top: 1rem;
+ 
+}
+.btn-d {
+    height: 3rem;
+    width: 8rem;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 8rem;
+
+    cursor: pointer;
+}
